@@ -51,6 +51,21 @@ function openTab(evt, tabName) {
   evt.currentTarget.firstElementChild.className += " selected";
 }
 
+
+function myToggle() {
+    var toggle = document.getElementById("filterToggle");
+    if (toggle.style.display === "none") {
+        toggle.style.display = "block";
+    } else {
+        toggle.style.display = "none";
+    }
+}
+
+
+
+/*******************
+  menu toggle
+  ******************/
 /* Open */
 function openNav() {
     document.getElementById("myNav").style.height = "100%";

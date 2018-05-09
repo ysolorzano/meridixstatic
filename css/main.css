@@ -436,6 +436,28 @@ input[type=text] {
   .search-inputs input {
     margin-right: 20px; }
 
+.filter-inputs {
+  width: 50%;
+  margin: 0 auto;
+  display: none; }
+
+.input-container {
+  width: 31%;
+  margin: 0 1%;
+  display: inline-block; }
+
+.input-container-search {
+  margin-right: 5%;
+  width: 85%;
+  float: left; }
+
+.filter-toggle {
+  position: relative;
+  top: 25px; }
+  .filter-toggle button {
+    background-color: transparent;
+    border: none; }
+
 /* .events */
 .events-container {
   display: inline-block;

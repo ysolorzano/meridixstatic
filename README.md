@@ -2,5 +2,5 @@
 
 Still working: 
 - Carousel on tablet
-- Expand/Hide filters
 - Show/Hide mobile nav
+- Filters are hidden, trying to work on toggle.

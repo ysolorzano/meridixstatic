@@ -50,8 +50,40 @@
     </div>
         
       <form class="search-inputs">
-        <label for="search">Search</label>
-        <input type="text" id="search" name="search" placeholder="Keyword..."> <img src="img/plusbutton.png">
+        <div class="input-container-search">
+          <label for="search">Search</label>
+          <input type="text" id="search" name="search" placeholder="Keyword..."> 
+        </div>
+        <div class="filter-toggle"><button onclick="myToggle()"><img src="img/plusbutton.png"></button></div>
+     </form>
+     
+     
+     
+     <form id="filterToggle" class="filter-inputs">
+        <div class="input-container">
+          <label for="search">Event Type</label>
+          <input type="text" id="eventtype" name="search" placeholder="All Events Types">
+        </div>
+        <div class="input-container">
+          <label for="search">Broadcast Type</label>
+          <input type="text" id="alltype" name="search" placeholder="All Types"> 
+        </div>
+        <div class="input-container">
+          <label for="search">Status</label>
+          <input type="text" id="allstatus" name="search" placeholder="All Statuses"> 
+        </div>
+        <div class="input-container">
+          <label for="search">Date</label>
+          <input type="text" id="allday" name="search" placeholder="All Days">
+        </div>
+        <div class="input-container">
+          <label for="search"></label>
+          <input type="text" id="allmonth" name="search" placeholder="All Months"> 
+        </div>
+        <div class="input-container">
+          <label for="search"></label>
+          <input type="text" id="allyear" name="search" placeholder="All Years">  
+        </div>      
      </form>
       
       
