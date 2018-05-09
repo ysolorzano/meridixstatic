@@ -1,0 +1,635 @@
+$font-stack: 'Source Sans Pro', 'Helvetica-Neue', sans-serif;
+$red-color: #BD292F;
+$black-color: #35393D;
+$blue-color: #003055;
+$white: #FFFFFF;
+$hr-gray: #DCDCDC;
+$feature-bg: #F7F7F9;
+
+$light-weight: 300;
+$medium-weight: 500;
+$heavy-weight: 800;
+
+$h1-px: 40px;
+$h2-px: 48px;
+$h3-px: 28px;
+$h4-px: 18px;
+$body-px: 16px;
+$links-px: 14px;
+
+$button-ht: 50px;
+$button-wd: 230px;
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 400px) {
+/********************
+  index.html
+********************/
+  header {
+    nav {
+      .right {
+        display: none;
+      }
+    }
+  }
+
+.mobile-nav {
+  display: block;
+  float: right;
+  
+  a img {
+    margin: 10px;
+  }
+}
+
+#indexhtml {
+  header {
+    nav {
+      .right {
+        display: none;
+      }
+    }
+    .container {
+      .left {
+        top: 45px !important;
+        
+        button {
+          margin: 20px 0 10px 0;
+        }
+      }
+      .right {
+        display: none;
+      }
+    }  
+    
+  }
+}
+
+  .button-primaryred,
+  .button-secondarywhite,
+  .button-secondaryred {
+    width: 275px !important; 
+  } 
+  
+  
+  #indexhtml .who-we-are {
+    width: 80% !important;
+  }
+  
+  .features-that-help img {
+    width: 385px;
+    left: 25px;
+  }
+  
+  .fth-text .button-primaryred {
+    left: 6% !important;
+  }
+  
+  .we-know {
+    margin: 50px 0;
+  }
+  
+  .pricing-plans {
+    margin-top: 50px !important;
+    
+    .button-secondaryred {
+      left: 8% !important;
+    }
+    
+    .center-container {
+      left: -25px;
+      top: -10px;
+    }
+  }
+  
+  .pricing-card {
+    margin-bottom: 25px;
+    
+    .bottom .button-primaryred {
+      width: 100% !important;
+    }
+  }
+  
+  .looking-to-watch .right img {
+    right: 100px !important;
+  }
+
+footer {
+  height: 1200px;
+  
+  ul li {
+    width: 90% !important;
+    text-align: center;
+  }  
+}
+
+
+
+/********************
+  compare.html
+********************/
+#comparehtml header {
+  background-image: none;
+  background-color: $blue-color;
+  height: 75px;
+  border-bottom: 1px solid $hr-gray;
+}
+
+#comparehtml .compare-container ul li:first-of-type {
+  height: 225px !important;   
+}
+
+#comparehtml .compare-container ul li {
+  p {
+    right: 0 !important;
+    text-align: center;
+  }
+
+  h4 {
+    float: none !important;
+    text-align: center;
+    left: 0 !important;
+  }  
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }  
+}
+
+
+/********************
+  contact.html
+********************/
+#contacthtml header {
+  background-image: none;
+  background-color: $blue-color;
+  height: 75px;
+  border-bottom: 1px solid $hr-gray;
+}
+
+.contact-container {
+  height: 1050px !important;
+}
+.contact-links p {
+  display: block;
+  margin: 15px auto;
+}
+
+
+/********************
+  download.html
+********************/
+#downloadhtml header {
+  background-image: none;
+  background-color: $blue-color;
+  height: 75px;
+  border-bottom: 1px solid $hr-gray;
+}
+
+.download-container {
+  height: 2000px;
+}
+
+.download-img-container {
+  height: 250px;
+  
+  img {
+    width: 100%;
+  }
+
+}
+
+.download-button button {
+  margin: 15px 0;
+}
+
+
+/********************
+  email.html
+********************/
+#emailhtml header {
+  background-image: none;
+  background-color: $blue-color;
+  height: 75px;
+  border-bottom: 1px solid $hr-gray;
+}
+
+
+/********************
+  search.html
+********************/
+#searchhtml header {
+  background-image: none;
+  background-color: $blue-color;
+  height: 75px;
+  border-bottom: 1px solid $hr-gray;
+}
+
+.events-container {
+  text-align: center;
+}
+
+.events-text {
+  width: 95% !important;
+  margin: 15px 0;
+}
+
+#Channels ul li { 
+  width: 100%;
+}
+
+/********************
+  support.html
+********************/
+#supporthtml header {
+  background-image: none;
+  background-color: $blue-color;
+  height: 75px;
+  border-bottom: 1px solid $hr-gray;
+}
+
+.support-container {
+  height: 3100px !important;
+  
+  .left {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  
+  .support-topics {
+  float: none;
+  width: 80% !important;
+  margin: 0 auto;
+  right: 0 !important;
+}
+}
+
+
+
+/********************
+  signup.html
+********************/
+.signup-container {
+  position: relative;
+  top: -50px;
+  
+  .signup-form {
+  width: 85% !important;
+  
+    .plan-selected {
+      width: 111.7% !important;
+      left: -20px !important;
+    }
+  }
+}
+
+
+
+}
+
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 768px) {
+/********************
+  index.html
+********************/
+  #indexhtml header .container {
+    display: block;
+    
+    .left {
+      float: none;
+    }
+    
+    .left {
+      width: 100%;
+      left: 0px;
+      top: 65px
+    }
+    
+    .right {
+      position: relative;
+      top: 105px;
+      right: -75px;
+      width: 50%;
+      
+      img {
+        height: 450px;
+
+      }
+    }
+  }
+  
+  .who-we-are {
+    left: 40px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 50% !important;
+  }
+  
+  .what-we-provide {
+    width: 90%;
+    margin-top: 50px;
+  }
+  
+  .fc-container {
+    width: 100%;
+  }
+  
+  .features-that-help .left {
+    left: 10px !important;
+  }
+
+  .fth-text {
+    margin: 0 auto 100px 0;
+    width: 90% !important;
+    right: 0 !important;
+    top: 30px;
+    
+    .button-primaryred {
+      left: 25%;
+    }
+  }
+  
+  .we-know {
+    text-align: center;
+  }
+ 
+ .pricing-plans {
+   margin-top: 100px;
+   
+   .section-header, h3 {
+     text-align: center;
+   }
+   
+   h3 {
+     float: none;
+     width: 90%;
+   }
+   
+   .button-secondaryred {
+     float: none;
+     position: relative;
+     left: 32%;
+     margin-top: 0;
+     margin-bottom: 50px;
+   }
+ }
+ 
+ .pc-container {
+   overflow: hidden;
+   display: flex;
+ }
+ 
+ .pricing-card {
+   overflow: hidden;
+   width: 350px;
+ }
+ 
+ .center-container button {
+   left: 0 !important;
+   top: 40px;
+ }
+    
+.looking-to-watch {
+  height: 700px; 
+  
+  .left, .right {
+    float: none !important;
+  }
+  
+  .left {
+    left: 0;
+    top: 400px;
+  }
+  
+  .right {
+    top: -125px;
+    position: relative;
+  }
+}
+
+footer ul {
+  display: block;
+  left: 0;
+  
+  li {
+    width: 32%;
+    vertical-align: top;
+    margin-bottom: 25px;
+  }
+}    
+
+
+
+/********************
+  compare.html
+********************/
+#comparehtml .compare-container ul li:first-of-type {
+  width: 100% !important;
+  height: 175px;
+}
+
+#comparehtml .compare-container ul {
+  width: 95%;
+    li {
+    width: 32.5% !important;
+    
+    .button-primaryred-med {
+      width: 90%;
+    }
+    
+    h4 {
+      float: left;
+      position: relative;
+      left: 130px;
+    }
+    p {
+      position: relative;
+      top: -15px;
+      right: -150px;
+    }
+    
+    .section-header {
+      float: none !important;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+
+/********************
+  contact.html
+********************/
+.contact-container {
+  height: 1000px;
+  
+  ul li {
+  width: 100%;
+  text-align: center;
+}
+  
+}
+
+
+/********************
+  download.html
+********************/
+.download-container ul li {
+  width: 100%;
+}
+
+
+/********************
+  email.html
+********************/
+.email-inputs {
+  width: 80%;
+}
+
+
+/********************
+  search.html
+********************/
+.tab {
+  width: 90%;
+}
+
+.tab-row {
+  width: 100%;
+}
+
+.search-inputs {
+  width: 90%;
+}
+
+.events-text {
+  width: 45%
+}
+
+
+/********************
+  support.html
+********************/
+.support-container {
+  height: 2225px;
+  
+  .inside-text {
+  width: 85% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .support-topics {
+    width: 40%;
+    position: relative;
+    right: 7%;
+    
+    ul li {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+
+/********************
+  signup.html
+********************/
+.signup-container {
+
+  .inside-text h4 {
+  width: 80%;
+}
+
+  .signup-form {
+    width: 60%;
+    
+    .plan-selected {
+      width: 116.6%;
+      left: -38px;
+    }
+  }
+
+
+}
+
+
+
+    
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (max-width : 1224px) {
+/********************
+  index.html
+********************/
+  .button-primaryred,
+  .button-secondarywhite,
+  .button-secondaryred {
+    width: 215px; 
+  } 
+  
+  .who-we-are {
+    width: 35%;
+  }
+  
+  .features-that-help .left {
+    left: -40px;
+  }
+  
+  .fth-text {
+    right: 45px;
+  }
+  
+  .pricing-plans {
+    width: 85%;
+  }
+  
+  .pricing-card {
+    width: 325px;
+    overflow: hidden;
+    
+    .inside .bottom ul {
+        width: 80%;
+
+    }
+  }
+  
+  .looking-to-watch .right img {
+    right: -75px;
+  }
+  
+/********************
+  download.html
+********************/
+  .download-img-container img {
+    width: 85%;
+  }
+  
+/********************
+  contact.html
+********************/  
+.contact-container ul {
+  width: 75%;
+}
+
+/********************
+  signup.html
+********************/  
+.plan-selected {
+      width: 140%;
+      left: -61px;
+   }
+
+}
+

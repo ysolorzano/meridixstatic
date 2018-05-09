@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>video-player</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Meridix" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-295.000000, -133.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-5">
+                <g id="video-player" transform="translate(295.000000, 133.000000)">
+                    <path d="M0,0 L0,26.4 L40,26.4 L40,0 L0,0 Z M38.3333333,24.75 L1.66666667,24.75 L1.66666667,1.65 L38.3333333,1.65 L38.3333333,24.75 Z" id="Shape"></path>
+                    <path d="M16,7.2 L16,18.4 L25.6,12.8 L16,7.2 Z M17.6,10.0003946 L22.4,12.8 L17.6,15.5996054 L17.6,10.0003946 Z" id="Shape"></path>
+                    <path d="M14.9157715,35.2 C14.5285645,33.3765625 12.8453776,32 10.8333333,32 C8.82128906,32 7.13810221,33.3765625 6.75089518,35.2 L0,35.2 L0,36.8 L6.75089518,36.8 C7.13810221,38.6234375 8.82128906,40 10.8333333,40 C12.8453776,40 14.5285645,38.6234375 14.9157715,36.8 L40,36.8 L40,35.2 L14.9157715,35.2 Z M10.8333333,38.4 C9.4547526,38.4 8.33333333,37.3234375 8.33333333,36 C8.33333333,34.6765625 9.4547526,33.6 10.8333333,33.6 C12.2119141,33.6 13.3333333,34.6765625 13.3333333,36 C13.3333333,37.3234375 12.2119141,38.4 10.8333333,38.4 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
